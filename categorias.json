@@ -1,0 +1,22 @@
+[
+  {
+    "Id": 1,
+    "Descricao": "Sal\u00E1rio",
+    "Finalidade": "Receita"
+  },
+  {
+    "Id": 2,
+    "Descricao": "Custos",
+    "Finalidade": "Despesa"
+  },
+  {
+    "Id": 3,
+    "Descricao": "Aluguel",
+    "Finalidade": "Despesa"
+  },
+  {
+    "Id": 4,
+    "Descricao": "Conta de Celular Claro e Internet",
+    "Finalidade": "Despesa"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "Id": 1,
+    "Descricao": "Sal\u00E1rio mensal",
+    "Valor": 4500.00,
+    "Tipo": "Receita",
+    "CategoriaId": 1,
+    "PessoaId": 1,
+    "DataVencimento": null,
+    "Pago": false
+  },
+  {
+    "Id": 2,
+    "Descricao": "Combustivel",
+    "Valor": 200,
+    "Tipo": "Despesa",
+    "CategoriaId": 2,
+    "PessoaId": 1,
+    "DataVencimento": null,
+    "Pago": false
+  },
+  {
+    "Id": 3,
+    "Descricao": "Aluguel",
+    "Valor": 2700,
+    "Tipo": "Despesa",
+    "CategoriaId": 3,
+    "PessoaId": 2,
+    "DataVencimento": "2026-02-05T00:00:00",
+    "Pago": false
+  },
+  {
+    "Id": 4,
+    "Descricao": "Carro",
+    "Valor": 990,
+    "Tipo": "Despesa",
+    "CategoriaId": 2,
+    "PessoaId": 3,
+    "DataVencimento": "2026-02-28T00:00:00",
+    "Pago": false
+  }
+]
