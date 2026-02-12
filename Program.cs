@@ -1,6 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// --- CONFIGURAÇÃO DE CORS PARA PRODUÇÃO ---
+// --- CONFIGURAÃ‡ÃƒO DE CORS PARA PRODUÃ‡ÃƒO ---
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("LiberarReact", policy =>
@@ -19,14 +19,13 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Removemos o "if IsDevelopment" do Swagger caso você queira testar a API 
-// direto pelo navegador no Render, mas você pode manter se preferir.
+
 app.UseSwagger();
 app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
-// --- ATIVAÇÃO DO CORS ---
+// --- ATIVAÃ‡ÃƒO DO CORS ---
 app.UseCors("LiberarReact");
 // ------------------------
 
@@ -46,11 +45,11 @@ app.Run();
 // builder.Services.AddControllers();
 
 
-// // Adiciona Swagger para documentação e teste da API
+
 // builder.Services.AddEndpointsApiExplorer();
 // builder.Services.AddSwaggerGen();
 
-// // Habilita CORS para permitir o frontend React (localhost:3000 é o padrão do create-react-app)
+
 // builder.Services.AddCors(options =>
 // {
     // options.AddPolicy("AllowReactApp",
