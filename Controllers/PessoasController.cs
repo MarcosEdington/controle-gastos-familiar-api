@@ -58,7 +58,7 @@ namespace ControleGastosFamiliaApi.Controllers
             return NoContent();
         }
 
-        // Adicione este método dentro da classe PessoasController.cs
+     
 
         [HttpPut("{id}")]
         public IActionResult PutPessoa(int id, Pessoa pessoaAtualizada)
