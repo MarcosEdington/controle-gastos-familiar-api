@@ -70,7 +70,7 @@ namespace ControleGastosFamiliaApi.Controllers
                 return BadRequest("Esta categoria não pode ser usada para receitas.");
             }
 
-            // Tudo ok → gera ID e salva
+ 
             var transacoes = _repoTransacoes.Carregar();
             transacao.Id = transacoes.Any() ? transacoes.Max(t => t.Id) + 1 : 1;
 
