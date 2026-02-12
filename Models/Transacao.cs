@@ -24,7 +24,7 @@ namespace ControleGastosFamiliaApi.Models
         public int PessoaId { get; set; }
 
         public DateTime? DataVencimento { get; set; }
-        public bool Pago { get; set; } = false; // Para saber se já saiu do saldo ou é apenas previsão
+        public bool Pago { get; set; } = false; 
 
     }
 }
